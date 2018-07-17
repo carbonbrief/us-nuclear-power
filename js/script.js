@@ -95,3 +95,11 @@ map.on('load', function() {
   })
 
 })
+
+// TOGGLE BUTTON
+
+$(".toggle").click(function() {
+  $("#console").toggleClass('console-close console-open');
+  $('.arrow-right-hidden').toggleClass('arrow-right');
+  $('.arrow-left').toggleClass('arrow-left-hidden');
+});
