@@ -114,7 +114,7 @@ map.on('load', function() {
     var coordinates = e.features[0].geometry.coordinates.slice();
     var name = e.features[0].properties.plantname;
     var status = e.features[0].properties.status;
-    var size = e.features[0].properties.gwh2017;
+    var size = Math.round(e.features[0].properties.gwh2017);
     var retire = e.features[0].properties.retirementyear;
     var plantColor = colorsArray[e.features[0].properties.status];
 
@@ -131,7 +131,7 @@ map.on('load', function() {
       .setHTML('<h3 style = "color: ' + plantColor + ';">' + name 
       + '</h3><p><span class="label-title">Status: </span>' + status 
       + '</p><p><span class="label-title">Generation: </span>' + size 
-      + 'GWh</p><p><span class="label-title">Retirement year: </span>' + retire + '</p>')
+      + ' GWh</p><p><span class="label-title">Retirement year: </span>' + retire + '</p>')
       .addTo(map);
   })
 
