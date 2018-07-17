@@ -94,3 +94,8 @@ li {
     color: #333333;
     list-style-type: circle;
 }
+
+.label-title {
+    color: #333333;
+    font-weight: bold;
+}

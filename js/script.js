@@ -43,7 +43,7 @@ map.on('load', function() {
         "Safe", "#a45edb",
         "At risk", "#dd8a3e",
         "Saved", "#c72bbf",
-        "Shut down", "#6e6e6e",
+        "Shut down", "#5a5a5a",
         "Retiring", "#efc530",
         /* other */ '#ccc'
       ],
