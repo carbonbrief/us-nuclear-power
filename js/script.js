@@ -6,9 +6,12 @@ if (!mapboxgl.supported()) {
         style: 'https://openmaptiles.github.io/positron-gl-style/style-cdn.json',
         center: [-100, 40],
         zoom: 3.5,
-        maxZoom: 18
+        maxZoom: 16
     });
 }
+
+// Add zoom and rotation controls to the map.
+map.addControl(new mapboxgl.NavigationControl());
 
 map.on('load', function() {
 
@@ -32,9 +35,7 @@ map.on('load', function() {
           [{zoom: 8, value: 0}, 4.5],
           [{zoom: 8, value: 35000}, 32],
           [{zoom: 12, value: 0}, 6],
-          [{zoom: 12, value: 35000}, 37],
-          [{zoom: 17, value: 0}, 8],
-          [{zoom: 17, value: 35000}, 42]
+          [{zoom: 12, value: 35000}, 37]
         ]
       },
       'circle-color': [
@@ -61,11 +62,20 @@ map.on('load', function() {
     // Change the cursor style as a UI indicator.
     map.getCanvas().style.cursor = 'pointer';
 
+    var colorsArray = {
+      "Safe": "#a45edb",
+      "At risk": "#dd8a3e",
+      "Saved": "#c72bbf",
+      "Shut down": "#5a5a5a",
+      "Retiring": "#efc530"
+    }
+
     var coordinates = e.features[0].geometry.coordinates.slice();
     var name = e.features[0].properties.plantname;
     var status = e.features[0].properties.status;
     var size = e.features[0].properties.gwh2017;
     var retire = e.features[0].properties.retirementyear;
+    var plantColor = colorsArray[e.features[0].properties.status];
 
     // Ensure that if the map is zoomed out such that multiple
       // copies of the feature are visible, the popup appears
@@ -77,7 +87,7 @@ map.on('load', function() {
     // Populate the popup and set its coordinates
     // based on the feature found.
     popup.setLngLat(coordinates)
-      .setHTML('<h3 style = "color: #ffc83e;">' + name 
+      .setHTML('<h3 style = "color: ' + plantColor + ';">' + name 
       + '</h3><p><span class="label-title">Status: </span>' + status 
       + '</p><p><span class="label-title">Generation: </span>' + size 
       + 'GWh</p><p><span class="label-title">Retirement year: </span>' + retire + '</p>')

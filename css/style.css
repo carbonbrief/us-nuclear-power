@@ -13,7 +13,7 @@ body {
 }
 
 #graph-container {
-    height: 350px;
+    height: 300px;
 }
 
 #key {
@@ -47,12 +47,12 @@ p {
 
 #console {
     position: absolute;
-    width: 400px;
+    width: 370px;
     margin: 10px;
     padding: 10px 25px;
     top: 0px;
     padding-right: 35px;
-    background-color: rgba(226, 226, 226, 0.796);
+    background-color: rgba(255, 255, 255, 0.796);
     border-radius: 5px;
     z-index: 5;
 }
@@ -139,3 +139,81 @@ li {
   .mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
     border-left-color: #ffffff;
   }
+
+#logo-mobile {
+    position: absolute;
+    top: 618px;
+    right: 9px;
+    z-index: 9000;
+    height: 25px;
+    width: 25px;
+    background-image:url(../img/logo-mobile.svg);
+    background-repeat: no-repeat;
+    visibility: hidden;
+}
+
+#logo-tablet {
+    position: absolute;
+    top: 600px;
+    right: 7px;
+    z-index: 9000;
+    height: 30px;
+    width: 30px;
+    background-image:url(../img/logo-mobile.svg);
+    background-repeat: no-repeat;
+    visibility: hidden;
+}
+
+#logo-laptop {
+    position: absolute;
+    top: 737px;
+    right: 0px;
+    z-index: 9000;
+    height: 45px;
+    width: 110px;
+    background-image:url(../img/logo-laptop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    visibility: visible;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #map {
+        height: 655px;
+    }
+
+    #logo-tablet {
+        visibility: visible;
+    }
+    
+    #logo-laptop {
+        visibility: hidden;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    #logo-tablet {
+      /* move as mapbox credit changes */
+      top: 592px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    #adb {
+      visibility: hidden;
+    }
+  
+    #logo-tablet {
+      visibility: hidden;
+    }
+  
+    #logo-mobile {
+      visibility: visible;
+    }
+  
+}
