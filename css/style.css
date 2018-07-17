@@ -16,6 +16,10 @@ body {
     height: 300px;
 }
 
+#graph {
+    margin-bottom: 5px;
+}
+
 #key {
     height: 55px;
 }
