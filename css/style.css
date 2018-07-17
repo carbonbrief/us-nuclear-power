@@ -177,6 +177,10 @@ li {
     visibility: visible;
 }
 
+.logo {
+    opacity: 0.5;
+}
+
 @media screen and (max-width: 1024px) {
 
     #map {
@@ -198,6 +202,10 @@ li {
     #logo-tablet {
       /* move as mapbox credit changes */
       top: 592px;
+    }
+
+    #map {
+        height: 470px;
     }
 
 }
