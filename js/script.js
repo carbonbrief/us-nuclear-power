@@ -4,8 +4,8 @@ if (!mapboxgl.supported()) {
     var map = new mapboxgl.Map({
         container: 'map',
         style: 'https://openmaptiles.github.io/positron-gl-style/style-cdn.json',
-        center: [-100, 40],
-        zoom: 3.5,
+        center: [-108, 37],
+        zoom: 3.7,
         maxZoom: 16
     });
 }
