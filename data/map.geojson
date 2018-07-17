@@ -1,0 +1,850 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.2296,35.3103 ]
+    },
+    "properties": {
+    "plantname":"Arkansas Nuclear One",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":12691.08
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.4319,40.6238 ]
+    },
+    "properties": {
+    "plantname":"Beaver Valley",
+    "status":"Retiring",
+    "retirementyear":"2021",
+    "gwh2017":15311.51
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.2296,41.247 ]
+    },
+    "properties": {
+    "plantname":"Braidwood",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":19943.55
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.119,34.7038 ]
+    },
+    "properties": {
+    "plantname":"Browns Ferry",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":27847.88
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.0071,33.9579 ]
+    },
+    "properties": {
+    "plantname":"Brunswick",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":15370.16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.2766,42.0744 ]
+    },
+    "properties": {
+    "plantname":"Byron",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":19144.04
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.7814,38.763 ]
+    },
+    "properties": {
+    "plantname":"Callaway",
+    "status":"At risk",
+    "retirementyear":"-",
+    "gwh2017":8304.127
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.4389,38.4345 ]
+    },
+    "properties": {
+    "plantname":"Calvert Cliffs",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":15106.99
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.071,35.053 ]
+    },
+    "properties": {
+    "plantname":"Catawba",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":19706.68
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.8335,40.1717 ]
+    },
+    "properties": {
+    "plantname":"Clinton Power Station",
+    "status":"Saved",
+    "retirementyear":"-",
+    "gwh2017":8348.336
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -119.334,46.47111 ]
+    },
+    "properties": {
+    "plantname":"Columbia Generating Station",
+    "status":"At risk",
+    "retirementyear":"-",
+    "gwh2017":8128.259
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.7865,32.3007 ]
+    },
+    "properties": {
+    "plantname":"Comanche Peak",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":16999.93
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.6434,40.3609 ]
+    },
+    "properties": {
+    "plantname":"Cooper",
+    "status":"At risk",
+    "retirementyear":"-",
+    "gwh2017":6912.737
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 28.959782,-82.6971 ]
+    },
+    "properties": {
+    "plantname":"Crystal River",
+    "status":"Shut down",
+    "retirementyear":"2013",
+    "gwh2017":7000
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.0919,41.5969 ]
+    },
+    "properties": {
+    "plantname":"Davis Besse",
+    "status":"Retiring",
+    "retirementyear":"2020",
+    "gwh2017":7875.413
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -120.854,35.2122 ]
+    },
+    "properties": {
+    "plantname":"Diablo Canyon",
+    "status":"Retiring",
+    "retirementyear":"2024",
+    "gwh2017":17901.08
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.5659,41.97539 ]
+    },
+    "properties": {
+    "plantname":"Donald C Cook",
+    "status":"At risk",
+    "retirementyear":"-",
+    "gwh2017":17592
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.268,41.38615 ]
+    },
+    "properties": {
+    "plantname":"Dresden",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":15444.88
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.776,42.101 ]
+    },
+    "properties": {
+    "plantname":"Duane Arnold",
+    "status":"At risk",
+    "retirementyear":"-",
+    "gwh2017":5213.509
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.3461,31.9347 ]
+    },
+    "properties": {
+    "plantname":"Edwin I Hatch",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":14530.94
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.2575,41.96278 ]
+    },
+    "properties": {
+    "plantname":"Fermi",
+    "status":"At risk",
+    "retirementyear":"-",
+    "gwh2017":8691.695
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.076,-96.076 ]
+    },
+    "properties": {
+    "plantname":"Fort Calhoun",
+    "status":"Shut down",
+    "retirementyear":"2016",
+    "gwh2017":3400
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.31,43.27778 ]
+    },
+    "properties": {
+    "plantname":"Ginna",
+    "status":"Saved",
+    "retirementyear":"-",
+    "gwh2017":4697.675
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.0452,32.0069 ]
+    },
+    "properties": {
+    "plantname":"Grand Gulf",
+    "status":"At risk",
+    "retirementyear":"-",
+    "gwh2017":7364.648
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.1583,34.40278 ]
+    },
+    "properties": {
+    "plantname":"H B Robinson",
+    "status":"At risk",
+    "retirementyear":"-",
+    "gwh2017":5925.833
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.955,35.63333 ]
+    },
+    "properties": {
+    "plantname":"Harris",
+    "status":"At risk",
+    "retirementyear":"-",
+    "gwh2017":8208.573
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.5354,39.4668 ]
+    },
+    "properties": {
+    "plantname":"Hope Creek",
+    "status":"At risk",
+    "retirementyear":"-",
+    "gwh2017":10627.33
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.9497,41.2693 ]
+    },
+    "properties": {
+    "plantname":"Indian Point",
+    "status":"Retiring",
+    "retirementyear":"2021",
+    "gwh2017":15302.63
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.4026,43.521 ]
+    },
+    "properties": {
+    "plantname":"James A Fitzpatrick",
+    "status":"Saved",
+    "retirementyear":"-",
+    "gwh2017":6174.224
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.1145,31.2231 ]
+    },
+    "properties": {
+    "plantname":"Joseph M Farley",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":14804.09
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 44.34297,-87.53932 ]
+    },
+    "properties": {
+    "plantname":"Kewaunee",
+    "status":"Shut down",
+    "retirementyear":"2013",
+    "gwh2017":4500
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.6724,41.2461 ]
+    },
+    "properties": {
+    "plantname":"LaSalle",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":18908.46
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.5835,40.2251 ]
+    },
+    "properties": {
+    "plantname":"Limerick",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":18552.96
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.9463,35.4333 ]
+    },
+    "properties": {
+    "plantname":"McGuire",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":18795.54
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.166,41.3116 ]
+    },
+    "properties": {
+    "plantname":"Millstone",
+    "status":"Saved",
+    "retirementyear":"-",
+    "gwh2017":16499.62
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.8504,45.3337 ]
+    },
+    "properties": {
+    "plantname":"Monticello",
+    "status":"At risk",
+    "retirementyear":"-",
+    "gwh2017":5159.62
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.4124,43.5216 ]
+    },
+    "properties": {
+    "plantname":"Nine Mile Point",
+    "status":"Saved",
+    "retirementyear":"-",
+    "gwh2017":15992.88
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.7918,38.0612 ]
+    },
+    "properties": {
+    "plantname":"North Anna",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":16126.09
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.8944,34.7964 ]
+    },
+    "properties": {
+    "plantname":"Oconee",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":21798.74
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.2077,39.8146 ]
+    },
+    "properties": {
+    "plantname":"Oyster Creek",
+    "status":"Retiring",
+    "retirementyear":"2018",
+    "gwh2017":5430.191
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.3161,42.3226 ]
+    },
+    "properties": {
+    "plantname":"Palisades",
+    "status":"Retiring",
+    "retirementyear":"2022",
+    "gwh2017":6097.496
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -112.863,33.3873 ]
+    },
+    "properties": {
+    "plantname":"Palo Verde",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":32340.14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.2702,39.7589 ]
+    },
+    "properties": {
+    "plantname":"Peach Bottom",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":21722.54
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.1465,41.8006 ]
+    },
+    "properties": {
+    "plantname":"Perry",
+    "status":"Retiring",
+    "retirementyear":"2021",
+    "gwh2017":9812.376
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.5776,41.9449 ]
+    },
+    "properties": {
+    "plantname":"Pilgrim",
+    "status":"Retiring",
+    "retirementyear":"2019",
+    "gwh2017":5047.17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.5343,44.2816 ]
+    },
+    "properties": {
+    "plantname":"Point Beach",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":9648.979
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.6314,44.6223 ]
+    },
+    "properties": {
+    "plantname":"Prairie Island",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":8744.731
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.3078,41.7268 ]
+    },
+    "properties": {
+    "plantname":"Quad Cities",
+    "status":"Saved",
+    "retirementyear":"-",
+    "gwh2017":15401.87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.3716,30.7273 ]
+    },
+    "properties": {
+    "plantname":"River Bend",
+    "status":"At risk",
+    "retirementyear":"-",
+    "gwh2017":7032.282
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.5342,39.463 ]
+    },
+    "properties": {
+    "plantname":"Salem",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":17975.17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.555,-117.555 ]
+    },
+    "properties": {
+    "plantname":"San Onofre",
+    "status":"Shut down",
+    "retirementyear":"2013",
+    "gwh2017":18100
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.8493,42.8974 ]
+    },
+    "properties": {
+    "plantname":"Seabrook",
+    "status":"At risk",
+    "retirementyear":"-",
+    "gwh2017":9990.704
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.0936,35.2277 ]
+    },
+    "properties": {
+    "plantname":"Sequoyah",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":18241.3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.0444,28.7967 ]
+    },
+    "properties": {
+    "plantname":"South Texas Project",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":21581.48
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.2439,27.3484 ]
+    },
+    "properties": {
+    "plantname":"St Lucie",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":16427.92
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.7003,37.1664 ]
+    },
+    "properties": {
+    "plantname":"Surry",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":14427.65
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.1428,41.0929 ]
+    },
+    "properties": {
+    "plantname":"TalenEnergy Susquehanna",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":20752.57
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.727,40.1539 ]
+    },
+    "properties": {
+    "plantname":"Three Mile Island",
+    "status":"Retiring",
+    "retirementyear":"2019",
+    "gwh2017":6860.26
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.3301,25.4346 ]
+    },
+    "properties": {
+    "plantname":"Turkey Point",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":12718.3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.3147,34.29861 ]
+    },
+    "properties": {
+    "plantname":"V C Summer",
+    "status":"At risk",
+    "retirementyear":"-",
+    "gwh2017":6913.294
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.5143,-72.5143 ]
+    },
+    "properties": {
+    "plantname":"Vermont Yankee",
+    "status":"Shut down",
+    "retirementyear":"2014",
+    "gwh2017":5100
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.7596,33.1425 ]
+    },
+    "properties": {
+    "plantname":"Vogtle",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":19177.86
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.4708,29.9944 ]
+    },
+    "properties": {
+    "plantname":"Waterford",
+    "status":"At risk",
+    "retirementyear":"-",
+    "gwh2017":8377.463
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.7893,35.601 ]
+    },
+    "properties": {
+    "plantname":"Watts Bar",
+    "status":"Safe",
+    "retirementyear":"-",
+    "gwh2017":13576.2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.6905,38.2392 ]
+    },
+    "properties": {
+    "plantname":"Wolf Creek",
+    "status":"At risk",
+    "retirementyear":"-",
+    "gwh2017":10647.99
+    }
+  }
+]
+}

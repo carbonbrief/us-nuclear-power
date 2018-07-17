@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>How much nuclear power is due to retire in the US? | Carbon Brief</title>
+        <meta name="description" content="More of America's nuclear power is scheduled to retire in the next few years that all its solar pwoer.">
+        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="console">
+            <div class="session" id="key">
+                <ul id="list-group">
+                    <li class="list-group-item">
+                        <div class="colour-key" style="background-color: rgb(161, 74, 96);"></div>
+                        Safe
+                    </li>
+                    <li class="list-group-item">
+                        <div class="colour-key" style="background-color: rgb(199, 43, 191);"></div>
+                        Saved
+                    </li>
+                    <li class="list-group-item">
+                        <div class="colour-key" style="background-color: #dd8a3e;"></div>
+                        At risk
+                    </li>
+                    <li class="list-group-item">
+                        <div class="colour-key" style="background-color: #efc530;"></div>
+                        Retiring
+                    </li>
+                    <li class="list-group-item">
+                        <div class="colour-key" style="background-color: #999999;"></div>
+                        Shutdown
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="map">
+            <div id="adb">
+                <i class="fa fa-info-circle" aria-hidden="true"></i><p>Map tiles failed to load. This might be because:<ul><li>Your adblocker is preventing the map tiles from rendering. Please try whitelisting this site and refreshing the page.</li><li>Your browser does not support WebGL – click <a href='https://get.webgl.org/' target="_blank">here</a> to check. Please upgrade or reopen this link in a <a href='https://www.mapbox.com/help/mapbox-browser-support/' target="_blank">modern web browser</a>, such as Firefox, Chrome or Safari (version 9.0+).</li></ul></p>
+            </div>
+        </div>
+        <div class="logo" id="logo-mobile"></div>
+        <div class="logo" id="logo-laptop"></div>
+        <script src="js/script.js"></script>
+    </body>    
+</html>
