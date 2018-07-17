@@ -177,6 +177,18 @@ li {
     visibility: visible;
 }
 
+#arrow-graph {
+    position: inherit;
+    background-image:url(../img/arrow.svg);
+    width: 25px;
+    height: 130px;
+    top: 192px;
+    left: 345px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 9000;
+}
+
 .logo {
     opacity: 0.5;
 }
