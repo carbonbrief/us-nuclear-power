@@ -7,12 +7,16 @@
         <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
         <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/data.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
         <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <div id="console">
             <div class="session" id="key">
+                <h2>Nuclear plant status</h2>
                 <ul id="list-group">
                     <li class="list-group-item">
                         <div class="colour-key" style="background-color: rgb(161, 74, 96);"></div>
@@ -36,6 +40,10 @@
                     </li>
                 </ul>
             </div>
+            <div class="session" id="graph">
+                <h2>US electricity generation</h2>
+                <div id="graph-container"></div>     
+            </div>
         </div>
         <div id="map">
             <div id="adb">
@@ -45,5 +53,6 @@
         <div class="logo" id="logo-mobile"></div>
         <div class="logo" id="logo-laptop"></div>
         <script src="js/script.js"></script>
+        <script src="js/graph.js"></script>
     </body>    
 </html>

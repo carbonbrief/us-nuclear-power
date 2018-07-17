@@ -12,9 +12,22 @@ body {
     height: 800px;
 }
 
+#graph-container {
+    height: 350px;
+}
+
+#key {
+    height: 55px;
+}
+
+h2 {
+    color: #999999;
+    font-size: 16px;
+}
+
 #console {
     position: absolute;
-    width: 350px;
+    width: 400px;
     margin: 10px;
     padding: 10px 25px;
     bottom: 0px;
@@ -41,7 +54,7 @@ body {
 
 ul {
     list-style-type: none;
-  }
+}
   
 #list-group {
     padding: 0px;
@@ -49,7 +62,7 @@ ul {
 
 li {
     color: #333333;
-    font-size: 12.5px;
+    font-size: 14px;
     float: left;
     padding-right: 15px;
     padding-bottom: 10px;
