@@ -89,7 +89,7 @@ map.on('load', function() {
         "Retiring", "#efc530",
         /* other */ '#ccc'
       ],
-      'circle-opacity': 0.77
+      'circle-opacity': 0.85
     }
   })
 

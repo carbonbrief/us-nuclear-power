@@ -181,12 +181,12 @@ li {
     position: inherit;
     background-image:url(../img/arrow.svg);
     width: 25px;
-    height: 130px;
-    top: 192px;
-    left: 345px;
+    height: 110px;
+    top: 194px;
+    left: 348px;
     background-size: contain;
     background-repeat: no-repeat;
-    z-index: 9000;
+    z-index: 333333;
 }
 
 .logo {
@@ -200,6 +200,10 @@ li {
     }
 
     #graph {
+        display: none;
+    }
+
+    #arrow-graph {
         display: none;
     }
 
