@@ -40,15 +40,48 @@ map.on('load', function() {
       'circle-color': [
         'match',
         ['get', 'status'],
-        "Safe", "#ced1cc",
-        "At risk", "#4e80e5",
-        "Saved", "#ffc83e",
-        "Shut down", "#333333",
-        "Retiring", "#a45edb",
+        "Safe", "#a45edb",
+        "At risk", "#dd8a3e",
+        "Saved", "#c72bbf",
+        "Shut down", "#6e6e6e",
+        "Retiring", "#efc530",
         /* other */ '#ccc'
       ],
       'circle-opacity': 0.77
     }
+  })
+
+  // Create a popup, but don't add it to the map yet.
+  var popup = new mapboxgl.Popup({
+    closeButton: false,
+    closeOnClick: false
+  });
+
+  map.on('mouseenter', 'plants', function(e) {
+    // Change the cursor style as a UI indicator.
+    map.getCanvas().style.cursor = 'pointer';
+
+    var coordinates = e.features[0].geometry.coordinates.slice();
+    var name = e.features[0].properties.plantname;
+    var status = e.features[0].properties.status;
+    var size = e.features[0].properties.gwh2017;
+    var retire = e.features[0].properties.retirementyear;
+
+    // Ensure that if the map is zoomed out such that multiple
+      // copies of the feature are visible, the popup appears
+      // over the copy being pointed to.
+      while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+    }
+
+    // Populate the popup and set its coordinates
+    // based on the feature found.
+    popup.setLngLat(coordinates)
+      .setHTML('<h3 style = "color: #ffc83e;">' + name 
+      + '</h3><p><span class="label-title">Status: </span>' + status 
+      + '</p><p><span class="label-title">Generation: </span>' + size 
+      + 'GWh</p><p><span class="label-title">Retirement year: </span>' + retire + '</p>')
+      .addTo(map);
   })
 
 })
