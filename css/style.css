@@ -142,7 +142,7 @@ li {
 
 #logo-mobile {
     position: absolute;
-    top: 618px;
+    top: 518px;
     right: 9px;
     z-index: 9000;
     height: 25px;
@@ -187,6 +187,10 @@ li {
         height: 655px;
     }
 
+    #graph {
+        display: none;
+    }
+
     #logo-tablet {
         visibility: visible;
     }
@@ -195,9 +199,37 @@ li {
         visibility: hidden;
     }
 
+    #console {
+        width: 340px;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    li {
+        font-size: 12.5px;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
+
+    h1 {
+        display: none;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    li {
+        font-size: 12px;
+    }
+
+    #console {
+        width: 180px;
+    }
 
     #logo-tablet {
       /* move as mapbox credit changes */
@@ -208,12 +240,24 @@ li {
         height: 470px;
     }
 
+    #adb {
+        visibility: hidden;
+      }
+
 }
+
+@media screen and (max-width: 607px) {
+    #logo-tablet {
+      top: 402px;
+    }
+}
+
+
 
 @media screen and (max-width: 480px) {
 
-    #adb {
-      visibility: hidden;
+    #logo-mobile {
+        top: 410px;
     }
   
     #logo-tablet {
