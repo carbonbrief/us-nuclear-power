@@ -127,6 +127,8 @@ map.on('load', function() {
     var plantColor = colorsArray[e.features[0].properties.status];
 
     var icon = getIcon[status];
+
+    var sizeString = size.toLocaleString('en');
     
     // Ensure that if the map is zoomed out such that multiple
     // copies of the feature are visible, the popup appears
@@ -141,7 +143,7 @@ map.on('load', function() {
       .setHTML('<div class="icon" style="background-image:url(./img/nuclear-' + icon 
       + '.svg); float: right;"></div><h3 style = "color: ' + plantColor + ';">' + name 
       + '</h3><p><span class="label-title">Status: </span>' + status 
-      + '</p><p><span class="label-title">Generation: </span>' + size 
+      + '</p><p><span class="label-title">Generation: </span>' + sizeString 
       + ' GWh</p><p><span class="label-title">Retirement year: </span>' + retire + '</p>')
       .addTo(map);
   })
