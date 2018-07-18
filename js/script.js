@@ -128,6 +128,7 @@ map.on('load', function() {
 
     var icon = getIcon[status];
 
+    // add thousands separators to data
     var sizeString = size.toLocaleString('en');
     
     // Ensure that if the map is zoomed out such that multiple
@@ -146,7 +147,13 @@ map.on('load', function() {
       + '</p><p><span class="label-title">Generation: </span>' + sizeString 
       + ' GWh</p><p><span class="label-title">Retirement year: </span>' + retire + '</p>')
       .addTo(map);
-  })
+
+  });
+
+  map.on('mouseleave', 'plants', function() {
+    map.getCanvas().style.cursor = '';
+    popup.remove();
+  });
 
 })
 
