@@ -111,6 +111,14 @@ map.on('load', function() {
       "Retiring": "#efc530"
     }
 
+    var getIcon = {
+      "Safe": "safe",
+      "At risk": "atrisk",
+      "Saved": "saved",
+      "Shut down": "shutdown",
+      "Retiring": "retiring"
+    }
+
     var coordinates = e.features[0].geometry.coordinates.slice();
     var name = e.features[0].properties.plantname;
     var status = e.features[0].properties.status;
@@ -118,17 +126,20 @@ map.on('load', function() {
     var retire = e.features[0].properties.retirementyear;
     var plantColor = colorsArray[e.features[0].properties.status];
 
+    var icon = getIcon[status];
+    
     // Ensure that if the map is zoomed out such that multiple
-      // copies of the feature are visible, the popup appears
-      // over the copy being pointed to.
-      while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+    // copies of the feature are visible, the popup appears
+    // over the copy being pointed to.
+    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
     }
 
     // Populate the popup and set its coordinates
     // based on the feature found.
     popup.setLngLat(coordinates)
-      .setHTML('<h3 style = "color: ' + plantColor + ';">' + name 
+      .setHTML('<div class="icon" style="background-image:url(./img/nuclear-' + icon 
+      + '.svg); float: right;"></div><h3 style = "color: ' + plantColor + ';">' + name 
       + '</h3><p><span class="label-title">Status: </span>' + status 
       + '</p><p><span class="label-title">Generation: </span>' + size 
       + ' GWh</p><p><span class="label-title">Retirement year: </span>' + retire + '</p>')

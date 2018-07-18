@@ -39,7 +39,7 @@ h2 {
 h3 {
     font-family: 'PT Sans Narrow', Helvetica, Arial, Sans-serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 0px;
     margin-bottom: 10px;
 }
@@ -191,6 +191,15 @@ li {
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 333333;
+}
+
+.icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin-left: 5px;
 }
 
 .logo {
