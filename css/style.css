@@ -206,9 +206,20 @@ li {
     opacity: 0.5;
 }
 
+#scroll-area {
+    position: absolute;
+    right: 0px;
+    width: 40px;
+    height: 800px;       
+}
+
 @media screen and (max-width: 1024px) {
 
     #map {
+        height: 655px;
+    }
+
+    #scroll-area {
         height: 655px;
     }
 
@@ -266,6 +277,10 @@ li {
     }
 
     #map {
+        height: 470px;
+    }
+
+    #scroll-area {
         height: 470px;
     }
 
