@@ -56,7 +56,7 @@ $(function() {
           format: '{value:,.0f}'
         },
         title: {
-          text: 'Million megawatt-hours (MWh)'
+          text: 'Terawatt-hours (TWh)'
         }
       },
 
@@ -76,7 +76,7 @@ $(function() {
 
       tooltip: {
         valueDecimals: 1,
-        pointFormat: '<b>{point.y:,.0f}M MWh</b> in {series.name}',
+        pointFormat: '<b>{point.y:,.0f} TWh</b> in {series.name}',
       },
 
       // sets options for the legend

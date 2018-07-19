@@ -82,9 +82,9 @@ map.on('load', function() {
       'circle-color': [
         'match',
         ['get', 'status'],
-        "Safe", "#a45edb",
+        "Operating", "#a45edb",
         "At risk", "#dd8a3e",
-        "Saved", "#c72bbf",
+        "Kept open", "#c72bbf",
         "Shut down", "#5a5a5a",
         "Retiring", "#efc530",
         /* other */ '#ccc'
@@ -104,17 +104,17 @@ map.on('load', function() {
     map.getCanvas().style.cursor = 'pointer';
 
     var colorsArray = {
-      "Safe": "#a45edb",
+      "Operating": "#a45edb",
       "At risk": "#dd8a3e",
-      "Saved": "#c72bbf",
+      "Kept open": "#c72bbf",
       "Shut down": "#5a5a5a",
       "Retiring": "#efc530"
     }
 
     var getIcon = {
-      "Safe": "safe",
+      "Operating": "safe",
       "At risk": "atrisk",
-      "Saved": "saved",
+      "Kept open": "saved",
       "Shut down": "shutdown",
       "Retiring": "retiring"
     }
