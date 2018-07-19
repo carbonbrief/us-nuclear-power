@@ -68,12 +68,11 @@ p {
 .colour-key {
     width: 9px;
     height: 9px;
-    margin-right: 2px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
     display: inline-block;
-    margin-right: 3px;
+    margin-right: 2px;
 }
 
 ul {
@@ -86,9 +85,9 @@ ul {
 
 li {
     color: #333333;
-    font-size: 14px;
+    font-size: 12.5px;
     float: left;
-    padding-right: 15px;
+    padding-right: 11px;
     padding-bottom: 10px;
 }
 
@@ -240,7 +239,7 @@ li {
     }
 
     #console {
-        width: 340px;
+        width: 350px;
     }
 
     h1 {
@@ -248,7 +247,8 @@ li {
     }
 
     li {
-        font-size: 12.5px;
+        font-size: 12px;
+        padding-right: 8px;
     }
 
 }
