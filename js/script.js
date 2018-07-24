@@ -6,7 +6,8 @@ if (!mapboxgl.supported()) {
         style: 'https://openmaptiles.github.io/positron-gl-style/style-cdn.json',
         center: [-108, 37],
         zoom: 3.7,
-        maxZoom: 16
+        maxZoom: 16,
+        scrollZoom: false
     });
 }
 
