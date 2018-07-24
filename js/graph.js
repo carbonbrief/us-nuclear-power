@@ -116,19 +116,19 @@ $(function() {
             name: 'Geothermal',
             data: [0, 0, 0, 16.0],
         }, {
-            name: 'Nuclear: safe',
+            name: 'Nuclear: Operating',
             data: [0, 0, 0, 0, 513.1],
         }, {
-            name: 'Nuclear: saved',
+            name: 'Nuclear: Kept open',
             data: [0, 0, 0, 0, 67.1],
         }, {
-            name: 'Nuclear: at risk',
+            name: 'Nuclear: At risk',
             data: [0, 0, 0, 0, 135.1],
         }, {
-            name: 'Nuclear: retiring',
+            name: 'Nuclear: Retiring',
             data: [0, 0, 0, 0, 89.6],
         }, {
-            name: 'Nuclear: shut down',
+            name: 'Nuclear: Shut down',
             data: [0, 0, 0, 0, 38.1],
         }
     ]},
