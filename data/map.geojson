@@ -9,7 +9,7 @@
     },
     "properties": {
     "plantname":"Palo Verde",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":32340.14
     }
@@ -22,7 +22,7 @@
     },
     "properties": {
     "plantname":"Browns Ferry",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":27847.88
     }
@@ -35,7 +35,7 @@
     },
     "properties": {
     "plantname":"Oconee",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":21798.74
     }
@@ -48,7 +48,7 @@
     },
     "properties": {
     "plantname":"Peach Bottom",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":21722.54
     }
@@ -61,7 +61,7 @@
     },
     "properties": {
     "plantname":"South Texas Project",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":21581.48
     }
@@ -74,7 +74,7 @@
     },
     "properties": {
     "plantname":"TalenEnergy Susquehanna",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":20752.57
     }
@@ -87,7 +87,7 @@
     },
     "properties": {
     "plantname":"Braidwood",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":19943.55
     }
@@ -100,7 +100,7 @@
     },
     "properties": {
     "plantname":"Catawba",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":19706.68
     }
@@ -113,7 +113,7 @@
     },
     "properties": {
     "plantname":"Vogtle",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":19177.86
     }
@@ -126,7 +126,7 @@
     },
     "properties": {
     "plantname":"Byron",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":19144.04
     }
@@ -139,7 +139,7 @@
     },
     "properties": {
     "plantname":"LaSalle",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":18908.46
     }
@@ -152,7 +152,7 @@
     },
     "properties": {
     "plantname":"McGuire",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":18795.54
     }
@@ -165,7 +165,7 @@
     },
     "properties": {
     "plantname":"Limerick",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":18552.96
     }
@@ -178,7 +178,7 @@
     },
     "properties": {
     "plantname":"Sequoyah",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":18241.3
     }
@@ -204,7 +204,7 @@
     },
     "properties": {
     "plantname":"Salem",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":17975.17
     }
@@ -243,7 +243,7 @@
     },
     "properties": {
     "plantname":"Comanche Peak",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":16999.93
     }
@@ -256,7 +256,7 @@
     },
     "properties": {
     "plantname":"Millstone",
-    "status":"Saved",
+    "status":"Kept open",
     "retirementyear":"-",
     "gwh2017":16499.62
     }
@@ -269,7 +269,7 @@
     },
     "properties": {
     "plantname":"St Lucie",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":16427.92
     }
@@ -282,7 +282,7 @@
     },
     "properties": {
     "plantname":"North Anna",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":16126.09
     }
@@ -295,7 +295,7 @@
     },
     "properties": {
     "plantname":"Nine Mile Point",
-    "status":"Saved",
+    "status":"Kept open",
     "retirementyear":"-",
     "gwh2017":15992.88
     }
@@ -308,7 +308,7 @@
     },
     "properties": {
     "plantname":"Dresden",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":15444.88
     }
@@ -321,7 +321,7 @@
     },
     "properties": {
     "plantname":"Quad Cities",
-    "status":"Saved",
+    "status":"Kept open",
     "retirementyear":"-",
     "gwh2017":15401.87
     }
@@ -334,7 +334,7 @@
     },
     "properties": {
     "plantname":"Brunswick",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":15370.16
     }
@@ -373,7 +373,7 @@
     },
     "properties": {
     "plantname":"Calvert Cliffs",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":15106.99
     }
@@ -386,7 +386,7 @@
     },
     "properties": {
     "plantname":"Joseph M Farley",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":14804.09
     }
@@ -399,7 +399,7 @@
     },
     "properties": {
     "plantname":"Edwin I Hatch",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":14530.94
     }
@@ -412,7 +412,7 @@
     },
     "properties": {
     "plantname":"Surry",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":14427.65
     }
@@ -425,7 +425,7 @@
     },
     "properties": {
     "plantname":"Watts Bar",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":13576.2
     }
@@ -438,7 +438,7 @@
     },
     "properties": {
     "plantname":"Turkey Point",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":12718.3
     }
@@ -451,7 +451,7 @@
     },
     "properties": {
     "plantname":"Arkansas Nuclear One",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":12691.08
     }
@@ -516,7 +516,7 @@
     },
     "properties": {
     "plantname":"Point Beach",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":9648.979
     }
@@ -529,7 +529,7 @@
     },
     "properties": {
     "plantname":"Prairie Island",
-    "status":"Safe",
+    "status":"Operating",
     "retirementyear":"-",
     "gwh2017":8744.731
     }
@@ -568,7 +568,7 @@
     },
     "properties": {
     "plantname":"Clinton Power Station",
-    "status":"Saved",
+    "status":"Kept open",
     "retirementyear":"-",
     "gwh2017":8348.336
     }
@@ -711,7 +711,7 @@
     },
     "properties": {
     "plantname":"James A Fitzpatrick",
-    "status":"Saved",
+    "status":"Kept open",
     "retirementyear":"-",
     "gwh2017":6174.224
     }
@@ -815,7 +815,7 @@
     },
     "properties": {
     "plantname":"Ginna",
-    "status":"Saved",
+    "status":"Kept open",
     "retirementyear":"-",
     "gwh2017":4697.675
     }

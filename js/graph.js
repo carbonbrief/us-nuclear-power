@@ -1,7 +1,7 @@
 $(function() {
     Highcharts.setOptions({
 
-      colors: ['#0b4572', '#4e80e5', '#43cfef', '#00A98E', '#32BAA4', '#66CBBB', '#99DCD1', '#CCEDE8', '#a45edb', '#c72bbf', '#dd8a3e', '#efc530', '#5a5a5a'],
+      colors: ['#295C83', '#c6e7fa', '#43cfef', '#00A98E', '#32BAA4', '#66CBBB', '#99DCD1', '#CCEDE8', '#a45edb', '#c72bbf', '#dd8a3e', '#efc530', '#5a5a5a'],
 
       chart: {
         style: {
@@ -56,7 +56,7 @@ $(function() {
           format: '{value:,.0f}'
         },
         title: {
-          text: 'Million megawatt-hours (MWh)'
+          text: 'Terawatt-hours (TWh)'
         }
       },
 
@@ -76,7 +76,7 @@ $(function() {
 
       tooltip: {
         valueDecimals: 1,
-        pointFormat: '<b>{point.y:,.0f}M MWh</b> in {series.name}',
+        pointFormat: '<b>{point.y:,.0f} TWh</b> in {series.name}',
       },
 
       // sets options for the legend
@@ -116,19 +116,19 @@ $(function() {
             name: 'Geothermal',
             data: [0, 0, 0, 16.0],
         }, {
-            name: 'Nuclear: safe',
+            name: 'Nuclear: Operating',
             data: [0, 0, 0, 0, 513.1],
         }, {
-            name: 'Nuclear: saved',
+            name: 'Nuclear: Kept open',
             data: [0, 0, 0, 0, 67.1],
         }, {
-            name: 'Nuclear: at risk',
+            name: 'Nuclear: At risk',
             data: [0, 0, 0, 0, 135.1],
         }, {
-            name: 'Nuclear: retiring',
+            name: 'Nuclear: Retiring',
             data: [0, 0, 0, 0, 89.6],
         }, {
-            name: 'Nuclear: shut down',
+            name: 'Nuclear: Shut down',
             data: [0, 0, 0, 0, 38.1],
         }
     ]},

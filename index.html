@@ -19,17 +19,18 @@
             <div id="console-toggle">
                 <a href="#" class="toggle"><span class="arrow-right-hidden">&#10095;</span><span class="arrow-left">&#10094;</span></a>
             </div>
-            <h1>How much nuclear power is <span style="background-color:#a45edb; color:#ffffff; padding-left: 4px; padding-right: 4px; border-radius: 2px;">safe</span> from retirement?</h1>
+            <div id="arrow-graph"></div>
+            <h1>How much nuclear power is <span style="background-color:#dd8a3e; color:#ffffff; padding-left: 4px; padding-right: 4px; border-radius: 4px;">at risk</span> of retirement?</h1>
             <div class="session" id="key">
-                <h2>Nuclear plant status</h2>
+                <h2>Map key: nuclear plant status</h2>
                 <ul id="list-group">
                     <li class="list-group-item">
                         <div class="colour-key" style="background-color: #a45edb;"></div>
-                        Safe
+                        Operating
                     </li>
                     <li class="list-group-item">
                         <div class="colour-key" style="background-color: #c72bbf;"></div>
-                        Saved
+                        Kept open
                     </li>
                     <li class="list-group-item">
                         <div class="colour-key" style="background-color: #dd8a3e;"></div>
@@ -41,12 +42,12 @@
                     </li>
                     <li class="list-group-item">
                         <div class="colour-key" style="background-color: #5a5a5a;"></div>
-                        Shutdown
+                        Shut down
                     </li>
                 </ul>
             </div>
             <div class="session" id="graph">
-                <h2>US electricity generation</h2>
+                <h2>US electricity generation in 2017</h2>
                 <div id="graph-container"></div>     
             </div>
         </div>
@@ -55,6 +56,7 @@
                 <i class="fa fa-info-circle" aria-hidden="true"></i><p>Map tiles failed to load. This might be because:<ul><li>Your adblocker is preventing the map tiles from rendering. Please try whitelisting this site and refreshing the page.</li><li>Your browser does not support WebGL – click <a href='https://get.webgl.org/' target="_blank">here</a> to check. Please upgrade or reopen this link in a <a href='https://www.mapbox.com/help/mapbox-browser-support/' target="_blank">modern web browser</a>, such as Firefox, Chrome or Safari (version 9.0+).</li></ul></p>
             </div>
         </div>
+        <div id="scroll-area"></div>
         <div class="logo" id="logo-mobile"></div>
         <div class="logo" id="logo-tablet"></div>
         <div class="logo" id="logo-laptop"></div>

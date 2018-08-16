@@ -38,9 +38,52 @@ var map = new mapboxgl.Map({
         zoom: 3.7,
         maxZoom: 16,
         scrollZoom: false
+
     });*/
 
+    });
 }
+
+// variable to use throughout
+var screenWidth = $(window).width();
+
+var boundsMobile = [
+  [ -135, 22],[-62, 50]
+]
+
+var boundsLaptop = [
+  [ -135, 22],[-62, 56]
+]
+
+var boundsDesktop = [
+  [ -160, 28],[-68, 44]
+]
+
+var boundsRetina = [
+  [ -160, 24],[-64, 46]
+]
+
+function getBounds () {
+  // 850 pixels is the screen width below which the charts get hidden
+  if (screenWidth > 1400) {
+      return boundsRetina
+  }
+  else if (screenWidth > 1024 && screenWidth < 1400) {
+      return boundsDesktop
+  } 
+  else if (1024 > screenWidth && screenWidth > 850) {
+      return boundsLaptop
+  } else {
+      return boundsMobile
+  }
+}
+
+var bounds = getBounds();
+
+console.log(bounds);
+
+// resize map for the screen
+map.fitBounds(bounds, {padding: 10});
 
 // Add zoom and rotation controls to the map.
 map.addControl(new mapboxgl.NavigationControl());
@@ -73,14 +116,14 @@ map.on('load', function() {
       'circle-color': [
         'match',
         ['get', 'status'],
-        "Safe", "#a45edb",
+        "Operating", "#a45edb",
         "At risk", "#dd8a3e",
-        "Saved", "#c72bbf",
+        "Kept open", "#c72bbf",
         "Shut down", "#5a5a5a",
         "Retiring", "#efc530",
         /* other */ '#ccc'
       ],
-      'circle-opacity': 0.77
+      'circle-opacity': 0.85
     }
   })
 
@@ -95,36 +138,56 @@ map.on('load', function() {
     map.getCanvas().style.cursor = 'pointer';
 
     var colorsArray = {
-      "Safe": "#a45edb",
+      "Operating": "#a45edb",
       "At risk": "#dd8a3e",
-      "Saved": "#c72bbf",
+      "Kept open": "#c72bbf",
       "Shut down": "#5a5a5a",
       "Retiring": "#efc530"
+    }
+
+    var getIcon = {
+      "Operating": "safe",
+      "At risk": "atrisk",
+      "Kept open": "saved",
+      "Shut down": "shutdown",
+      "Retiring": "retiring"
     }
 
     var coordinates = e.features[0].geometry.coordinates.slice();
     var name = e.features[0].properties.plantname;
     var status = e.features[0].properties.status;
-    var size = e.features[0].properties.gwh2017;
+    var size = Math.round(e.features[0].properties.gwh2017);
     var retire = e.features[0].properties.retirementyear;
     var plantColor = colorsArray[e.features[0].properties.status];
 
+    var icon = getIcon[status];
+
+    // add thousands separators to data
+    var sizeString = size.toLocaleString('en');
+    
     // Ensure that if the map is zoomed out such that multiple
-      // copies of the feature are visible, the popup appears
-      // over the copy being pointed to.
-      while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+    // copies of the feature are visible, the popup appears
+    // over the copy being pointed to.
+    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
     }
 
     // Populate the popup and set its coordinates
     // based on the feature found.
     popup.setLngLat(coordinates)
-      .setHTML('<h3 style = "color: ' + plantColor + ';">' + name 
+      .setHTML('<div class="icon" style="background-image:url(./img/nuclear-' + icon 
+      + '.svg); float: right;"></div><h3 style = "color: ' + plantColor + ';">' + name 
       + '</h3><p><span class="label-title">Status: </span>' + status 
-      + '</p><p><span class="label-title">Generation: </span>' + size 
-      + 'GWh</p><p><span class="label-title">Retirement year: </span>' + retire + '</p>')
+      + '</p><p><span class="label-title">Generation: </span>' + sizeString 
+      + ' GWh</p><p><span class="label-title">Retirement year: </span>' + retire + '</p>')
       .addTo(map);
-  })
+
+  });
+
+  map.on('mouseleave', 'plants', function() {
+    map.getCanvas().style.cursor = '';
+    popup.remove();
+  });
 
 })
 

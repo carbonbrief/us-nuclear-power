@@ -16,6 +16,10 @@ body {
     height: 300px;
 }
 
+#graph {
+    margin-bottom: 5px;
+}
+
 #key {
     height: 55px;
 }
@@ -28,14 +32,14 @@ h1 {
 }
 
 h2 {
-    color: #999999;
+    color: #8d8d8d;
     font-size: 16px;
 }
 
 h3 {
     font-family: 'PT Sans Narrow', Helvetica, Arial, Sans-serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 0px;
     margin-bottom: 10px;
 }
@@ -64,12 +68,11 @@ p {
 .colour-key {
     width: 9px;
     height: 9px;
-    margin-right: 2px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
     display: inline-block;
-    margin-right: 3px;
+    margin-right: 2px;
 }
 
 ul {
@@ -82,9 +85,9 @@ ul {
 
 li {
     color: #333333;
-    font-size: 14px;
+    font-size: 12.5px;
     float: left;
-    padding-right: 15px;
+    padding-right: 11px;
     padding-bottom: 10px;
 }
 
@@ -117,7 +120,7 @@ li {
     color: #333333;
     background-color: #ffffff;
     /* border-color: #91785D; */
-    max-width: 250px;
+    max-width: 270px;
     /* box-shadow: 3px 3px 2px #8B5D33; */
   }
   
@@ -142,7 +145,7 @@ li {
 
 #logo-mobile {
     position: absolute;
-    top: 618px;
+    top: 518px;
     right: 9px;
     z-index: 9000;
     height: 25px;
@@ -177,10 +180,54 @@ li {
     visibility: visible;
 }
 
+#arrow-graph {
+    position: inherit;
+    background-image:url(../img/arrow.svg);
+    width: 25px;
+    height: 110px;
+    top: 194px;
+    left: 348px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 333333;
+}
+
+.icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin-left: 5px;
+}
+
+.logo {
+    opacity: 0.5;
+}
+
+#scroll-area {
+    position: absolute;
+    right: 0px;
+    width: 40px;
+    height: 800px;       
+}
+
 @media screen and (max-width: 1024px) {
 
     #map {
         height: 655px;
+    }
+
+    #scroll-area {
+        height: 655px;
+    }
+
+    #graph {
+        display: none;
+    }
+
+    #arrow-graph {
+        display: none;
     }
 
     #logo-tablet {
@@ -191,21 +238,70 @@ li {
         visibility: hidden;
     }
 
+    #console {
+        width: 350px;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    li {
+        font-size: 12px;
+        padding-right: 8px;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
+
+    h1 {
+        display: none;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    li {
+        font-size: 12px;
+    }
+
+    #console {
+        width: 200px;
+    }
 
     #logo-tablet {
       /* move as mapbox credit changes */
       top: 592px;
     }
 
+    #map {
+        height: 470px;
+    }
+
+    #scroll-area {
+        height: 470px;
+    }
+
+    #adb {
+        visibility: hidden;
+    }
+
 }
+
+@media screen and (max-width: 607px) {
+    #logo-tablet {
+      top: 402px;
+    }
+}
+
+
 
 @media screen and (max-width: 480px) {
 
-    #adb {
-      visibility: hidden;
+    #logo-mobile {
+        top: 410px;
     }
   
     #logo-tablet {
