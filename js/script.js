@@ -31,6 +31,15 @@ var map = new mapboxgl.Map({
     zoom: 3.5, // starting zoom
     maxZoom: 16
 });
+/*var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'https://openmaptiles.github.io/positron-gl-style/style-cdn.json',
+        center: [-108, 37],
+        zoom: 3.7,
+        maxZoom: 16,
+        scrollZoom: false
+    });*/
+
 }
 
 // Add zoom and rotation controls to the map.
