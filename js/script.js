@@ -1,46 +1,13 @@
 if (!mapboxgl.supported()) {
     alert('Your browser does not support Mapbox GL');
   } else {
-
-var map = new mapboxgl.Map({
-    container: 'map', // container id
-    style: {
-        "version": 8,
-        "sources": {
-            "simple-tiles": {
-                "type": "raster",
-                // point to our third-party tiles. Note that some examples
-                // show a "url" property. This only applies to tilesets with
-                // corresponding TileJSON (such as mapbox tiles). 
-                "tiles": [
-                   "http://a.tile.openstreetmap.org/{z}/{x}/{y}.png",
-                    "http://b.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                ],
-                "tileSize": 256
-            }
-        },
-        "layers": [{
-            "id": "simple-tiles",
-            "type": "raster",
-            "source": "simple-tiles",
-            "minzoom": 0,
-            "maxzoom": 22
-        }]
-    },
-    center: [-100, 40], // starting position
-    zoom: 3.5, // starting zoom
-    maxZoom: 16
-});
-/*var map = new mapboxgl.Map({
+    var map = new mapboxgl.Map({
         container: 'map',
         style: 'https://openmaptiles.github.io/positron-gl-style/style-cdn.json',
         center: [-108, 37],
         zoom: 3.7,
         maxZoom: 16,
         scrollZoom: false
-
-    });*/
-
     });
 }
 
