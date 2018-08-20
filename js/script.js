@@ -38,8 +38,7 @@ var map = new mapboxgl.Map({
         zoom: 3.7,
         maxZoom: 16,
         scrollZoom: false
-
-    });*/
+});*/
 
 // variable to use throughout
 var screenWidth = $(window).width();
