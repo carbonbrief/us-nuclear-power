@@ -27,7 +27,7 @@ var map = new mapboxgl.Map({
             "maxzoom": 22
         }]
     },
-    center: [-100, 40], // starting position
+    center: [-120, 10], // starting position
     zoom: 3.5, // starting zoom
     maxZoom: 16
 });
@@ -40,9 +40,6 @@ var map = new mapboxgl.Map({
         scrollZoom: false
 
     });*/
-
-    });
-}
 
 // variable to use throughout
 var screenWidth = $(window).width();
@@ -198,3 +195,4 @@ $(".toggle").click(function() {
   $('.arrow-right-hidden').toggleClass('arrow-right');
   $('.arrow-left').toggleClass('arrow-left-hidden');
 });
+}
