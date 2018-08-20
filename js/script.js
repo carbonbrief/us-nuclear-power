@@ -52,7 +52,7 @@ var boundsLaptop = [
   [ -135, 22],[-62, 56]
 ]
 
-var boundsDesktop = [
+var boundsDesktop = [ 
   [ -160, 28],[-68, 44]
 ]
 
