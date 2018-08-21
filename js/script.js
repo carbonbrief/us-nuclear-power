@@ -13,10 +13,10 @@ var map = new mapboxgl.Map({
                 // show a "url" property. This only applies to tilesets with
                 // corresponding TileJSON (such as mapbox tiles). 
                 "tiles": [
-                   "http://a.tile.openstreetmap.org/{z}/{x}/{y}.png",
-                    "http://b.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                   "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"
                 ],
-                "tileSize": 256
+                "tileSize": 256,
+                attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ'
             }
         },
         "layers": [{
